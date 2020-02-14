@@ -21,7 +21,7 @@ JS, SQL, HTMS, CSS
 * Postgraduate Academy, "Modern Foreign Language” with the conferred qualification of “Translator, Foreign Language Assistant” (English)
 
 ### Experience:
- * 1+ years of experience as the Helpdesk Engineer for 1st IT Company (I'm actually working for this company now). 
+ * 1+ years of experience as the Helpdesk Engineer for [1st IT Company](https://1st-it.com/) (I'm actually working for this company now). 
  I have quite extensive experience working with various IT systems, such as: creating a domain account, setting up mail routing, hub transport rules in Exchange/Office 365; mail routing, configuring servers, Synology NAS, various Google & Microsoft products, installing and setting up a large number of different softwares all over the World, and much more (feel free and look through the Feefo reviews about the company to find out that I was telling the truth).
    * _Self-education:_ HTML and CSS courses on htmlacademy.ru and codecademy.com; JS tutorial on learn.javascript.ru; Java in Java Rush website
 
