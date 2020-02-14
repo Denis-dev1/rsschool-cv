@@ -28,7 +28,7 @@ JS, SQL, HTMS, CSS
   
   * What is especially important, I know what it means to work in a Team and how important it is. The Good Team is one of the most important things .
  
- Unfortunately I don't have much programming experience yet, but I'm working on it! So that's why I'm here at the Rolling Scopes School.
+ Unfortunately I don't have much programming experience yet, but I'm working on it! So that's why I'm here at the **Rolling Scopes School.**
 
 ### English:
  
