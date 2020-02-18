@@ -1,3 +1,47 @@
-body {	
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url(https://i.pinimg.com/originals/bd/03/a4/bd03a424e3663196b1d93b9f41e19225.jpg);
 }
 
+.main {
+	margin-left: auto;
+  margin-right: auto;
+	margin-top: 10px;
+  width: 800px;
+	padding: 30px;
+	
+	border-radius: 50px;
+	background-image: url(https://cdn1.savepice.ru/uploads/2020/2/18/1187908bc283dd069abc48af55f60778-full.jpg);
+	background-color: #cccccc;
+			
+}
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url(https://i.pinimg.com/originals/bd/03/a4/bd03a424e3663196b1d93b9f41e19225.jpg);
+}
+
+.header-info {
+foat: left;
+line-height: 20px;
+  
+}
+
+.main {
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+    width: 800px;
+	padding: 30px;
+	
+	border-radius: 50px;
+	background-image: url(https://cdn1.savepice.ru/uploads/2020/2/18/1187908bc283dd069abc48af55f60778-full.jpg);
+	background-color: #cccccc;
+			
+}
+
+ .image {
+	border-radius: 50px;
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+}
