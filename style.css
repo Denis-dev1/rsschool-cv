@@ -1,0 +1,98 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  background-image: url(https://images.pexels.com/photos/13398910/pexels-photo-13398910.jpeg);
+  background-size: cover;
+}
+
+a {
+  color: #2a302b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.header-info {
+  line-height: 20px;
+  padding-left: 40%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+
+  list-style: none;
+}
+
+nav {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 800px;
+  padding: 30px;
+  border-radius: 50px;
+  opacity: 0.8;
+  background-color: #cccccc;
+}
+
+.header-info ul {
+  list-style-position: inside;
+  margin: 10px;
+}
+
+.image {
+  border-radius: 50px;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+#email {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+#emailContent {
+  margin-top: 0;
+}
+
+#socialMedia {
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#codeDiv {
+  background-color: #cee1e1;
+  max-width: 520px;
+  max-height: 150px;
+  margin-left: 25px;
+}
+
+.codeEx code {
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#gitHubLogo img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+#rsLogo img {
+  width: 90px;
+  border-radius: 5px;
+}
