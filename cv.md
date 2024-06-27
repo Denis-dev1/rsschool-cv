@@ -21,11 +21,6 @@ So now I'm here to find out what I'm worth.
 - JS
 - SQL
 
-### Education:
-
-- Belarusian National Technical University, Mechanical Engineering Faculty, "Computer Mechatronics" specialty
-- Postgraduate Academy, "Modern Foreign Language” with the conferred qualification of “Translator, Foreign Language Assistant” (English)
-
 ### Code examples:
 
 ```
@@ -42,6 +37,11 @@ const array = [1, 2, 3, 4, 5, 3, 4, 4, 4, 23]; // [1,2,3,4,5,23]
 console.log(getUniqueValue(array));
 
 ```
+
+### Education:
+
+- Belarusian National Technical University, Mechanical Engineering Faculty, "Computer Mechatronics" specialty
+- Postgraduate Academy, "Modern Foreign Language” with the conferred qualification of “Translator, Foreign Language Assistant” (English)
 
 ### English:
 
