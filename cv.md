@@ -42,3 +42,8 @@ const array = [1, 2, 3, 4, 5, 3, 4, 4, 4, 23]; // [1,2,3,4,5,23]
 console.log(getUniqueValue(array));
 
 ```
+
+### English:
+
+4+ years as an English Helpdesk Engineer.
+If we talk about English, then I can say that daily communication with native speakers through the phone has a really positive effect. I really like to communicate with foreigners, this is incredible!
