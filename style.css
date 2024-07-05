@@ -17,3 +17,9 @@ nav > ul {
   display: flex;
   justify-content: space-around;
 }
+
+.contact-info > img {
+  max-width: 250px;
+  border-radius: 50%;
+  opacity: 100%;
+}
