@@ -18,8 +18,37 @@ nav > ul {
   justify-content: space-around;
 }
 
+.contact-info {
+  display: flex;
+}
+
+.contact-info-text {
+  max-width: 450px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
 .contact-info > img {
   max-width: 250px;
   border-radius: 50%;
   opacity: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#github-logo {
+  max-width: 130px;
+}
+
+#RsSchool-logo {
+  padding-top: 10px;
+  max-width: 125px;
+  max-height: 50px;
+}
+
+footer > p {
+  padding-top: 10px;
 }
