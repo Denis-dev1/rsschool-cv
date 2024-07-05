@@ -10,28 +10,31 @@
     <div class="main">
       <header>
         <nav>
-          <ul>
-            <li>Contact Info</li>
-            <li>Summary</li>
-            <li>Code examples</li>
-            <li>Education</li>
-            <li>English</li>
+          <ul id="nav-list">
+            <li><a href="#contact-info">Contact Info</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#code-example">Code examples</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">English</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <section class="contact-info">
+        <section id="contact-info">
           <img
             src="./images/cute-funny-horse-smile - Copy.png"
             alt="cute-funny-horse-smile" />
           <div class="contact-info-text">
-            <h2>Full Name: Denis Korobeinik</h2>
-            <h2>Contact Info:</h2>
-            Email: Korobeinik.Denis2016@yandex.ru Discord: Denis(@denis-dev1)
-            Telegram: @iDen123
+            <h2>Denis Korobeinik</h2>
+            <h3 class="contact-info-header">Contact Info:</h3>
+            <ul>
+              <li><strong>Email</strong>: Korobeinik.Denis2016@yandex.ru</li>
+              <li><strong>Discord</strong>: Denis(@denis-dev1)</li>
+              <li><strong>Telegram</strong>: @iDen123</li>
+            </ul>
           </div>
         </section>
-        <section class="summary">
+        <section id="summary">
           <h3>Summary:</h3>
           <p>
             Becoming a programmer is what excites me. This is amazing because
@@ -41,7 +44,7 @@
             that great? So now I'm here to find out what I'm worth.
           </p>
         </section>
-        <section class="skills">
+        <section id="skills">
           <h3>Skills:</h3>
           <ul>
             <li>HTML</li>
@@ -50,9 +53,11 @@
             <li>SQL</li>
           </ul>
         </section>
-        <section class="code-example">
+        <section id="code-example">
+          <h3>Code examples:</h3>
           <pre>
-            // Get a function that takes an array and returns a new array containing only the unique elements of the original array using Set.
+// Get a function that takes an array and returns a new array containing only the unique
+elements of the original array using Set.
 
 const getUniqueValue = (arr) => {
   const setCollection = new Set(arr);
@@ -65,7 +70,7 @@ const array = [1, 2, 3, 4, 5, 3, 4, 4, 4, 23]; // [1,2,3,4,5,23]
 console.log(getUniqueValue(array));
           </pre>
         </section>
-        <section class="education">
+        <section id="education">
           <h3>Education:</h3>
           <ul>
             <li>
@@ -79,7 +84,7 @@ console.log(getUniqueValue(array));
             </li>
           </ul>
         </section>
-        <section class="english">
+        <section id="english">
           <h3>English:</h3>
           <p>
             4+ years as an English Helpdesk Engineer. If we talk about English,
@@ -91,12 +96,19 @@ console.log(getUniqueValue(array));
       </main>
 
       <footer>
-        <img src="./images/GitHubLogo2.png" alt="GitHubLogo" id="github-logo" />
+        <a href="https://github.com/Denis-dev1" target="_blank"
+          ><img
+            src="./images/GitHubLogo2.png"
+            alt="GitHubLogo"
+            id="github-logo"
+        /></a>
         <p>July, 2024</p>
-        <img
-          src="./images/RsSchoolLogo2.png"
-          alt="RsSchoolLogo"
-          id="RsSchool-logo" />
+        <a href="https://rs.school/courses/javascript-ru" target="_blank"
+          ><img
+            src="./images/RsSchoolLogo2.png"
+            alt="RsSchoolLogo"
+            id="RsSchool-logo"
+        /></a>
       </footer>
     </div>
   </body>
