@@ -63,6 +63,10 @@ a:hover {
   max-width: 750px;
   padding-left: 15px;
 }
+#projects > a {
+  padding-left: 10px;
+}
+
 /* Footer */
 footer {
   display: flex;
