@@ -1,3 +1,88 @@
 body {
-  background: rgb(211, 197, 197);
+  font-family: Tahoma, Geneva, sans-serif;
+  background-image: url(https://images.pexels.com/photos/13398910/pexels-photo-13398910.jpeg);
+  background-size: cover;
+}
+
+.main {
+  background: rgb(238, 224, 224);
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 800px;
+  border-radius: 40px;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(159, 163, 165);
+}
+
+#contact-info {
+  display: flex;
+}
+
+.contact-info-text {
+  max-width: 450px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.contact-info-header {
+  padding-top: 35px;
+}
+
+#contact-info > img {
+  max-width: 250px;
+  border-radius: 50%;
+  opacity: 100%;
+}
+
+#summary > h3 {
+  padding-top: 10px;
+}
+
+#skills > h3 {
+  padding-top: 10px;
+}
+
+#code-example > h3 {
+  padding-top: 10px;
+}
+
+#code-example > pre {
+  max-width: 750px;
+  padding-left: 15px;
+}
+#projects > a {
+  padding-left: 10px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#github-logo {
+  max-width: 130px;
+}
+
+#RsSchool-logo {
+  padding-top: 10px;
+  max-width: 125px;
+  max-height: 50px;
+}
+
+footer > p {
+  padding-top: 10px;
 }
