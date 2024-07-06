@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <nav>
+          <ul id="nav-list">
+            <li><a href="#contact-info">Contact Info</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#code-example">Code examples</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">English</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="contact-info">
+          <img
+            src="./images/cute-funny-horse-smile2.png"
+            alt="cute-funny-horse-smile">
+          <div class="contact-info-text">
+            <h1>Denis Korobeinik</h1>
+            <h3 class="contact-info-header">Contact Info:</h3>
+            <ul>
+              <li><strong>Email</strong>: Korobeinik.Denis2016@yandex.ru</li>
+              <li><strong>Discord</strong>: Denis(@denis-dev1)</li>
+              <li><strong>Telegram</strong>: @iDen123</li>
+            </ul>
+          </div>
+        </section>
+        <section id="summary">
+          <h2>Summary:</h2>
+          <p>
+            Becoming a programmer is what excites me. This is amazing because
+            you do not stagnate in one place, but gain a lot of experience over
+            time. Coding is very social, communicating with the team,
+            encountering new issues and solving them in various ways. Is not
+            that great? So now I'm here to find out what I'm worth.
+          </p>
+        </section>
+        <section id="skills">
+          <h2>Skills:</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>SQL</li>
+          </ul>
+        </section>
+        <section id="code-example">
+          <h2>Code examples:</h2>
+          <pre>
+// Get a function that takes an array and returns a new array containing only the unique
+elements of the original array using Set.
+
+const getUniqueValue = (arr) => {
+  const setCollection = new Set(arr);
+
+  return [...setCollection];
+};
+
+const array = [1, 2, 3, 4, 5, 3, 4, 4, 4, 23]; // [1,2,3,4,5,23]
+
+console.log(getUniqueValue(array));
+          </pre>
+        </section>
+        <section id="projects">
+          <h2>Projects:</h2>
+          <a href="https://denis-dev1.github.io/rsschool-cv/" target="_blank"
+            >RS School CV</a
+          >
+        </section>
+        <section id="education">
+          <h2>Education:</h2>
+          <ul>
+            <li>
+              Belarusian National Technical University, Mechanical Engineering
+              Faculty, "Computer Mechatronics" specialty
+            </li>
+            <li>
+              Postgraduate Academy, "Modern Foreign Language” with the conferred
+              qualification of “Translator, Foreign Language Assistant”
+              (English)
+            </li>
+          </ul>
+        </section>
+        <section id="english">
+          <h2>English:</h2>
+          <p>
+            4+ years as an English Helpdesk Engineer. If we talk about English,
+            then I can say that daily communication with native speakers through
+            the phone has a really positive effect. I really like to communicate
+            with foreigners, this is incredible!
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <a href="https://github.com/Denis-dev1" target="_blank"
+          ><img
+            src="./images/GitHubLogo2.png"
+            alt="GitHubLogo"
+            id="github-logo"></a>
+        <p>July, 2024</p>
+        <a href="https://rs.school/courses/javascript-ru" target="_blank"
+          ><img
+            src="./images/RsSchoolLogo2.png"
+            alt="RsSchoolLogo"
+            id="RsSchool-logo"></a>
+      </footer>
+    </div>
+  </body>
+</html>
