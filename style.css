@@ -50,3 +50,39 @@ a:hover {
 #summary > h3 {
   padding-top: 10px;
 }
+
+#skills > h3 {
+  padding-top: 10px;
+}
+
+#code-example > h3 {
+  padding-top: 10px;
+}
+
+#code-example > pre {
+  max-width: 750px;
+  padding-left: 15px;
+}
+#projects > a {
+  padding-left: 10px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#github-logo {
+  max-width: 130px;
+}
+
+#RsSchool-logo {
+  padding-top: 10px;
+  max-width: 125px;
+  max-height: 50px;
+}
+
+footer > p {
+  padding-top: 10px;
+}
